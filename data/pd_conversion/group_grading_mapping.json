@@ -1,0 +1,39 @@
+{
+    "group_grading": {
+        "低": {
+            "Group 1": "A",
+            "Group 2": "A",
+            "Group 3": "B",
+            "Group 4": "B",
+            "Group 5": "C"
+        },
+        "中低": {
+            "Group 1": "A",
+            "Group 2": "B",
+            "Group 3": "B",
+            "Group 4": "C",
+            "Group 5": "D"
+        },
+        "中": {
+            "Group 1": "B",
+            "Group 2": "B",
+            "Group 3": "C",
+            "Group 4": "D",
+            "Group 5": "D"
+        },
+        "中高": {
+            "Group 1": "B",
+            "Group 2": "C",
+            "Group 3": "D",
+            "Group 4": "D",
+            "Group 5": "E"
+        },
+        "高": {
+            "Group 1": "C",
+            "Group 2": "D",
+            "Group 3": "D",
+            "Group 4": "E",
+            "Group 5": "E"
+        }
+    }
+}
