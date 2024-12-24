@@ -53,7 +53,7 @@ def process_LGD_domestic_corporate_credit(file_path):
                     result_entry = {
                         '客戶名': str(row['客戶名']),
                         '情境': "基準情境",
-                        'LGD(%)': 1 - company_data['recovery_rate']
+                        'LGD(%)': (100 - company_data['recovery_rate'])/100
                     }
                     result["基準情境"].append(result_entry)
                 else:
@@ -86,7 +86,7 @@ def process_LGD_domestic_corporate_credit(file_path):
                     result_entry = {
                         '客戶名': str(row['客戶名']),
                         '情境': "基準情境",
-                        'LGD(%)': 1 - company_data['recovery_rate']
+                        'LGD(%)': (100 - company_data['recovery_rate'])/100
                     }
                     result["基準情境"].append(result_entry)
                 else:
@@ -104,7 +104,7 @@ def process_LGD_domestic_corporate_credit(file_path):
                     result_entry = {
                         '客戶名': str(row['客戶名']),
                         '情境': "基準情境",
-                        'LGD(%)': 1 - company_data['recovery_rate']
+                        'LGD(%)': (100 - company_data['recovery_rate'])/100
                     }
                     result["基準情境"].append(result_entry)
                 else:
